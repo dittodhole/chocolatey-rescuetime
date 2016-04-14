@@ -1,4 +1,4 @@
-﻿$packageName = 'dashlane'
+﻿$packageName = 'rescuetime'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /NORESTART /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS'
 $url = 'https://www.rescuetime.com/installers/RescueTimeInstaller.exe'
