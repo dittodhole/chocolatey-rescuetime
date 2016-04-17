@@ -1,4 +1,4 @@
-# chocolatey-rescuetime
+# [![Chocolatey](https://img.shields.io/chocolatey/v/rescuetime.svg)](https://chocolatey.org/packages/rescuetime) chocolatey-rescuetime
 
 A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.
 
