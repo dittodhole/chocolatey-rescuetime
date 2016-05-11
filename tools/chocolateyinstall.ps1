@@ -2,7 +2,7 @@
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /NORESTART /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS'
 $url = 'https://www.rescuetime.com/installers/RescueTimeInstaller.exe'
-$checksum = '78a442c835336986b580a0d1dd9f2c886761fefa'
+$checksum = '183ddcd6445651764a6988af1bb29f970f4a6031'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 

@@ -3,13 +3,13 @@
   <metadata>
     <id>rescuetime</id>
     <title>rescuetime</title>
-    <version>2.12.4.1450</version>
+    <version>2.12.4.1457</version>
     <authors>RescueTime</authors>
     <owners>Andreas Niedermair</owners>
     <description>A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.</description>
     <projectUrl>https://www.rescuetime.com/</projectUrl>
     <packageSourceUrl>https://github.com/dittodhole/chocolatey-rescuetime</packageSourceUrl>
-	<licenseUrl>https://www.rescuetime.com/plans</licenseUrl>
+    <licenseUrl>https://www.rescuetime.com/plans</licenseUrl>
     <tags>rescuetime admin</tags>
     <copyright>© RescueTime.com</copyright>
     <iconUrl>https://raw.githubusercontent.com/dittodhole/chocolatey-rescuetime/master/assets/icon.png</iconUrl>
