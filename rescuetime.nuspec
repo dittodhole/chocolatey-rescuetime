@@ -12,7 +12,7 @@
     <licenseUrl>https://www.rescuetime.com/plans</licenseUrl>
     <tags>rescuetime admin</tags>
     <copyright>© RescueTime.com</copyright>
-    <iconUrl>https://raw.githubusercontent.com/dittodhole/chocolatey-rescuetime/master/assets/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/dittodhole/chocolatey-rescuetime/master/assets/icon.svg</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
