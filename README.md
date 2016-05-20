@@ -8,6 +8,7 @@
 https://chocolatey.org/packages/rescuetime
 
     > choco install rescuetime
+
 ## Developing
 
 Open [rescuetime.nuspec](rescuetime.nuspec) with the editor of your choice, to edit the package defintion.
