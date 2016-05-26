@@ -3,9 +3,9 @@
 #  chocolatey-rescuetime
 > A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.
 
-## Installation [![Chocolatey](https://img.shields.io/chocolatey/v/rescuetime.svg)](https://chocolatey.org/packages/rescuetime)
+## Installation
 
-https://chocolatey.org/packages/rescuetime
+[![Chocolatey](https://img.shields.io/chocolatey/v/rescuetime.svg?style=flat-square)](https://chocolatey.org/packages/rescuetime) https://chocolatey.org/packages/rescuetime
 
     > choco install rescuetime
 
@@ -25,4 +25,4 @@ The actual (un)installation is done in *.ps1*-files:
 
 ## License
 
-chocolatey-rescuetime is published under [WTFNMFPLv3](https://andreas.niedermair.name/introducing-wtfnmfplv3).
+chocolatey-rescuetime is published under [WTFNMFPLv3](https://andreas.niedermair.name/introducing-wtfnmfplv3)
