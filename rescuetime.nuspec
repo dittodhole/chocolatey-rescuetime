@@ -5,7 +5,7 @@
     <title>rescuetime</title>
     <version>2.13.0.1538</version>
     <authors>RescueTime</authors>
-    <owners>Andreas Niedermair</owners>
+    <owners>dittodhole</owners>
     <description>A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.</description>
     <projectUrl>https://www.rescuetime.com/</projectUrl>
     <packageSourceUrl>https://github.com/dittodhole/chocolatey-rescuetime</packageSourceUrl>
