@@ -1,0 +1,42 @@
+version: '{build}'
+image: Visual Studio 2017
+skip_tags: true
+skip_commits:
+  files:
+    - '**/*.md'
+    - .gitignore
+before_build:
+- cmd: cd build
+- cmd: npm install
+build_script:
+- cmd: npm run-script build
+test: off
+artifacts:
+- path: artifacts/*.nupkg
+  name: nupkg
+  type: File
+for:
+-
+  branches:
+    only:
+      - master
+  deploy:
+    provider: NuGet
+    name: Chocolatey
+    server: https://push.chocolatey.org/
+    api_key:
+      secure: +fTRQpSd17emUj2c3ZNEMkulTNDn30de0EEGJ0vP/rA6dWVsazPUgRG/zEps0Xmh
+    artifact: nupkg
+-
+  branches:
+    only:
+      - master
+      - develop
+  deploy:
+    provider: NuGet
+    name: MyGet
+    server: https://www.myget.org/F/dittodhole/api/v2/package
+    api_key:
+      secure: c9r6oyxFOqnfj0xezZcLIoopgoBUb5ib9nrTYMkXDTqzvMrrXmprbHgyldag6NZ4
+    artifact: nupkg
+    symbol_server: https://www.myget.org/F/dittodhole/symbols/api/v2/package
