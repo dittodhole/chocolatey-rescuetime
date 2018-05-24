@@ -72,7 +72,8 @@ const writeStream = fs.createWriteStream(setupPath)
       '$author$': versionInfo.CompanyName,
       '$id$': versionInfo.ProductName.toLowerCase(),
       '$title$': versionInfo.ProductName,
-      '$copyright$': versionInfo.LegalCopyright
+      '$copyright$': versionInfo.LegalCopyright,
+      '$branch$': options.branch
     };
 
     winston.info(`Applying replacements ...`);
