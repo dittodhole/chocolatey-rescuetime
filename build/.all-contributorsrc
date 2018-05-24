@@ -1,0 +1,31 @@
+{
+  "projectName": "chocolatey-rescuetime",
+  "projectOwner": "Andreas Niedermair (@dittodhole)",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "../README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "v-karbovnichy",
+      "name": "Vyacheslav Karbovnichy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7301634?v=4",
+      "profile": "https://github.com/v-karbovnichy",
+      "contributions": [
+        "platform"
+      ]
+    },
+    {
+      "login": "cori",
+      "name": "cori schlegel",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46317?v=4",
+      "profile": "http://kinrowan.net",
+      "contributions": [
+        "platform"
+      ]
+    }
+  ]
+}
