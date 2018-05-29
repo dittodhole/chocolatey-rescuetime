@@ -11,7 +11,7 @@
 [![](https://img.shields.io/appveyor/ci/dittodhole/chocolatey-rescuetime/develop.svg)][2]
 [![](https://img.shields.io/myget/dittodhole/vpre/rescuetime.svg)][1]
 
-```powershell
+```cmd
 choco install rescuetime --pre --source https://www.myget.org/F/dittodhole/api/v2
 ```
 
@@ -20,7 +20,7 @@ choco install rescuetime --pre --source https://www.myget.org/F/dittodhole/api/v
 [![](https://img.shields.io/appveyor/ci/dittodhole/chocolatey-rescuetime/master.svg)][4]
 [![](https://img.shields.io/chocolatey/v/rescuetime.svg)][3]
 
-```powershell
+```cmd
 choco install rescuetime
 ```
 
