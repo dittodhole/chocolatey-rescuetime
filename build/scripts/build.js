@@ -70,7 +70,7 @@ const writeStream = fs.createWriteStream(setupPath)
       '$url$': options.setupUrl,
       '$checksum$': hash.digest('hex'),
       '$author$': versionInfo.CompanyName,
-      '$id$': versionInfo.ProductName.toLowerCase(),
+      '$id$': 'rescuetime',
       '$title$': versionInfo.ProductName,
       '$copyright$': versionInfo.LegalCopyright,
       '$branch$': options.branch
@@ -91,7 +91,7 @@ const writeStream = fs.createWriteStream(setupPath)
         const content = Object.keys(replacements)
           .reduce((accumulator, key) => {
             const value = replacements[key];
-            accumulator = accumulator.replace(key, value);
+            accumulator = accumulator.split(key).join(value);
             return accumulator;
           }, fs.readFileSync(templatePath, {
             encoding: 'utf8'
