@@ -42,8 +42,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/7301634?v=4" width="100px;"/><br /><sub><b>Vyacheslav Karbovnichy</b></sub>](https://github.com/v-karbovnichy)<br />[📦](#platform-v-karbovnichy "Packaging/porting to new platform") | [<img src="https://avatars1.githubusercontent.com/u/46317?v=4" width="100px;"/><br /><sub><b>cori schlegel</b></sub>](http://kinrowan.net)<br />[📦](#platform-cori "Packaging/porting to new platform") |
-| :---: | :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/7301634?v=4" width="100px;"/><br /><sub><b>Vyacheslav Karbovnichy</b></sub>](https://github.com/v-karbovnichy)<br />[📦](#platform-v-karbovnichy "Packaging/porting to new platform") | [<img src="https://avatars1.githubusercontent.com/u/46317?v=4" width="100px;"/><br /><sub><b>cori schlegel</b></sub>](http://kinrowan.net)<br />[📦](#platform-cori "Packaging/porting to new platform") | [<img src="https://avatars3.githubusercontent.com/u/307719?v=4" width="100px;"/><br /><sub><b>Andy Doyle</b></sub>](https://andydoyle.org)<br />[🐛](https://github.com/Andreas Niedermair (@dittodhole)/chocolatey-rescuetime/issues?q=author%3AAndyMDoyle "Bug reports") |
+| :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!

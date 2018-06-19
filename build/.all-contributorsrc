@@ -26,6 +26,15 @@
       "contributions": [
         "platform"
       ]
+    },
+    {
+      "login": "AndyMDoyle",
+      "name": "Andy Doyle",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/307719?v=4",
+      "profile": "https://andydoyle.org",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
