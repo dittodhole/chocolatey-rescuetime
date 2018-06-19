@@ -1,13 +1,10 @@
-﻿$ErrorActionPreference = "Stop";
-
-$args = @{
-  PackageName = "$id$"
-  SilentArgs = "/VERYSILENT /NORESTART /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS"
-  Url = "$url$"
-  ValidExitCodes = @(0)
-  InstallerType = "exe"
-  Checksum = "$checksum$"
-  ChecksumType = "sha1"
+﻿$packageArgs = @{
+  packageName = "$id$"
+  fileType = "exe"
+  url = "$url$"
+  silentArgs = "/VERYSILENT /NORESTART /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS"
+  checksum = "$checksum$"
+  checksumType = "sha1"
 };
 
-Install-ChocolateyPackage $args
+Install-ChocolateyPackage $packageArgs
