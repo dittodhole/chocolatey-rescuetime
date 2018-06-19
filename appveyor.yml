@@ -1,10 +1,6 @@
 version: '{build}'
 image: Visual Studio 2017
 skip_tags: true
-skip_commits:
-  files:
-    - '**/*.md'
-    - .gitignore
 before_build:
 - cmd: cd build
 - cmd: npm install
