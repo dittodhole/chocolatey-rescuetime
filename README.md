@@ -34,7 +34,9 @@ chocolatey-rescuetime/build> npm install
 chocolatey-rescuetime/build> npm run-script build
 ```
 
-This will create `chocolatey-rescuetime/artifacts/rescuetime.{version}.nupkg`.
+This will create the following artifacts:
+
+* `artifacts/rescuetime.{version}.nupkg`
 
 ## Contributors
 
