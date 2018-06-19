@@ -36,7 +36,7 @@ chocolatey-rescuetime/build> npm run-script build
 
 This will create the following artifacts:
 
-* `artifacts/rescuetime.{version}.nupkg`
+- `artifacts/rescuetime.{version}.nupkg`
 
 ## Contributors
 
