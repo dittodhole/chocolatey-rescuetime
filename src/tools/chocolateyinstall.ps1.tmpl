@@ -1,5 +1,8 @@
-﻿$packageArgs = @{
-  packageName = "$id$"
+﻿$ErrorActionPreference = "Stop";
+
+$packageArgs = @{
+  packageName = $env:ChocolateyPackageName
+  softwareName = "$id$*"
   fileType = "exe"
   url = "$url$"
   silentArgs = "/VERYSILENT /NORESTART /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS"
@@ -7,4 +10,11 @@
   checksumType = "sha1"
 };
 
-Install-ChocolateyPackage $packageArgs
+Install-ChocolateyPackage @packageArgs
+
+$installLocation = Get-AppInstallLocation $packageArgs.softwareName
+if ($installLocation) {
+  Write-Host "$packageName installed to '$installLocation'"
+} else {
+  Write-Warning "Can't find install location"
+}
