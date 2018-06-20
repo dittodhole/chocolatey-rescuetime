@@ -2,7 +2,6 @@
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  softwareName = "$id$*"
   fileType = "exe"
   silentArgs = "/VERYSILENT /NORESTART /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS"
   url = "$url$"
@@ -12,7 +11,7 @@ $packageArgs = @{
 
 Install-ChocolateyPackage @packageArgs
 
-$installLocation = Get-AppInstallLocation $packageArgs.softwareName
+$installLocation = Get-AppInstallLocation "rescuetime*"
 if ($installLocation) {
   Write-Host "$packageName installed to '$installLocation'"
 } else {
