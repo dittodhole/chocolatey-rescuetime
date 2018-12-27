@@ -67,7 +67,7 @@ const writeStream = fs.createWriteStream(setupPath)
 
     const replacements = {
       "$version$": version,
-      "$url$": options.setupUrl,
+      "$url$": options.setupUrl.replace("RescueTimeInstaller.exe", `RescueTimeInstaller_${versionInfo.FileVersion}.exe`),
       "$checksum$": hash.digest("hex"),
       "$author$": versionInfo.CompanyName,
       "$id$": "rescuetime",
