@@ -29,7 +29,7 @@ const options = {
   rootPath: path.resolve("../"),
   srcPath: path.resolve("../src/"),
   tmpPath: path.resolve("./tmp/"),
-  setupUrl: "https://www.rescuetime.com/installers/RescueTimeInstaller.exe",
+  setupUrl: "https://www.rescuetime.com/installers/RescueTimeInstaller_X.exe",
   branch: process.env.APPVEYOR_REPO_BRANCH,
   buildNumber: process.env.APPVEYOR_BUILD_NUMBER
 };
